@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    background-color: #a6d2d4;
+    background: linear-gradient(45deg, #a6d2d4, #e5cec6);
+}
+
+div {
+    border-radius: 20px;
+    box-shadow: 2px 2px 7px #0e2f34;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4em;
+    color: #287f8e;
+    margin: 20px 0;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 3px #0e2f34;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-size: 1.2em;
+    color: white;
+    background-color: #e06547;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px #0e2f34;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(1);
+}
+
+ul {
+    padding: 0;
+    margin: 30px 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li:nth-child(even) {
+    color: #287f8e;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#oggetti, #frase {
+    font-size: 1.5em;
+    color: #e06547;
+    font-weight: bold;
+}
